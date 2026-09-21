@@ -202,3 +202,8 @@ Newest first. Add a line here when you add a file.
 | 2026-09-21 | note     | [[cs-networking-and-algorithms]]            |
 | 2026-09-21 | note     | [[career-and-interview-prep]]               |
 | 2026-09-21 | note     | [[engineering-design-philosophy]]           |
+| 2026-09-21 | idea     | [[music-reactive-lighting]]                 |
+| 2026-09-21 | note     | [[problem-solving-and-debugging-style]]     |
+| 2026-09-21 | note     | [[ai-collaboration-preferences]]            |
+| 2026-09-21 | note     | [[strengths-and-growth-areas]]              |
+| 2026-09-21 | note     | [[personal-values-and-interpretation]]      |
