@@ -5,7 +5,7 @@ status: ongoing
 created: 2026-09-21
 updated: 2026-09-21
 tags: [self, identity, engineering, university-of-jaffna]
-links: [[[thermalflow]], [[active-suspension-wheelchair]], [[engineering-design-philosophy]], [[career-and-interview-prep]], [[problem-solving-and-debugging-style]], [[ai-collaboration-preferences]], [[strengths-and-growth-areas]], [[personal-values-and-interpretation]]]
+links: [[[thermalflow]], [[active-suspension-wheelchair]], [[engineering-design-philosophy]], [[career-and-interview-prep]], [[problem-solving-and-debugging-style]], [[ai-collaboration-preferences]], [[strengths-and-growth-areas]], [[personal-values-and-interpretation]], [[building-style-and-toolchain]]]
 ---
 
 # Venuja Nilaweera

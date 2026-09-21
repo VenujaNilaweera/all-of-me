@@ -207,3 +207,4 @@ Newest first. Add a line here when you add a file.
 | 2026-09-21 | note     | [[ai-collaboration-preferences]]            |
 | 2026-09-21 | note     | [[strengths-and-growth-areas]]              |
 | 2026-09-21 | note     | [[personal-values-and-interpretation]]      |
+| 2026-09-21 | note     | [[building-style-and-toolchain]]            |
