@@ -1,0 +1,45 @@
+name: Regenerate knowledge graph
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ideas/**.md"
+      - "notes/**.md"
+      - "people/**.md"
+      - "projects/**.md"
+      - "docs/scripts/template.html"
+      - "docs/scripts/generate.py"
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate docs/index.html
+        run: python3 docs/scripts/generate.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- docs/index.html; then
+            git add docs/index.html
+            git commit -m "Auto-regenerate knowledge graph from vault changes"
+            git push
+          else
+            echo "No graph changes to commit."
+          fi
