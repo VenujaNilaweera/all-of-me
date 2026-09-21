@@ -7,10 +7,17 @@ end:
 created: 2026-09-21
 updated: 2026-09-21
 tags: [build-style, debugging, leds, arduino, toolchain, solidworks, altium]
-links: [[[problem-solving-and-debugging-style]], [[embedded-and-hardware-experience]], [[pcb-and-power-electronics]]]
+links: [[[problem-solving-and-debugging-style]], [[embedded-and-hardware-experience]], [[pcb-and-power-electronics]], [[provenance-and-account-sharing]]]
 ---
 
 # Building Style, LED Debugging & Toolchain
+
+> **Disputed — see [[provenance-and-account-sharing]].** A later,
+> carefully sourced pass explicitly found no reliable evidence tying the
+> LED/Serial-Monitor debugging habit below, or STM32/PIC/SolidWorks
+> usage, to Venuja specifically, and flagged those chats as possibly
+> belonging to the friend who shares this Claude account. Treat this
+> whole file as unverified until confirmed, not as settled fact.
 
 ## Core signature
 "Make it work → make it visible → make it understandable → make it

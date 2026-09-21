@@ -17,16 +17,21 @@ surfaces. Shown at Techno Exhibition 2025, BMICH, as "Prototype 01".
 
 ## Architecture — two suspension levels
 - **Passive:** bicycle-style shock absorbers for small shocks/vibration.
-- **Active:** DC geared motors + lead screws, controlled via an MPU6050,
-  mechanically adjust the suspension in real time.
+- **Active:** two DC geared motors per wheel mechanism, driving lead
+  screws, controlled via inertial sensing, mechanically adjusting the
+  suspension in real time.
 
 ## Control objective
 Keep the seating area as flat/stable as possible while moving over uneven
-terrain.
+terrain, via a PID loop.
 
 ## Sensor
-MPU6050 (inertial). A combination/sensor-fusion approach was discussed to
-improve accuracy.
+**Three MPU6050 IMUs** feeding the PID control loop (a sensor-fusion
+approach to improve accuracy).
+
+## Team
+Showcased at Techno Exhibition 2025 (BMICH) with Dinal Disnaka and
+Chamath Samuditha.
 
 ## Disciplines integrated
 Mechanical suspension, motor control, embedded control, mechanical

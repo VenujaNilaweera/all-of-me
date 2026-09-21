@@ -208,3 +208,17 @@ Newest first. Add a line here when you add a file.
 | 2026-09-21 | note     | [[strengths-and-growth-areas]]              |
 | 2026-09-21 | note     | [[personal-values-and-interpretation]]      |
 | 2026-09-21 | note     | [[building-style-and-toolchain]]            |
+| 2026-09-21 | note     | [[provenance-and-account-sharing]]          |
+| 2026-09-21 | note     | [[confirmed-toolbox]]                       |
+| 2026-09-21 | note     | [[coursework-specific-rules]]               |
+| 2026-09-21 | note     | [[technical-lessons-learned]]               |
+| 2026-09-21 | project  | [[dengue-crt-wearable]]                     |
+| 2026-09-21 | project  | [[crt-perception-study-tool]]               |
+| 2026-09-21 | project  | [[esp32-robot-controller-pcb]]              |
+| 2026-09-21 | project  | [[esp32-solenoid-valve-driver-pcb]]         |
+| 2026-09-21 | project  | [[smart-timer-plug]]                        |
+| 2026-09-21 | project  | [[robotic-arm]]                             |
+| 2026-09-21 | project  | [[connected-lamp]]                          |
+| 2026-09-21 | project  | [[flowrail-axon]]                           |
+| 2026-09-21 | project  | [[mailsense]]                               |
+| 2026-09-21 | project  | [[linkedin-portfolio-projects]]             |

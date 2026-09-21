@@ -38,3 +38,8 @@ locally), or direct microscope image capture.
 
 This project combines mechanical automation, embedded control, computer
 vision, AI, and a biomedical application.
+
+## Also known as / patent
+Also referred to as **OvaScan** ("automated microscope slide scanning
+with YOLOv8 detection"). A patent filing is in progress (recorded, no
+further technical detail on filing status).

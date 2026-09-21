@@ -47,3 +47,10 @@ Human detection / pet filtering — distinguishing "a human is here" from
 ## Core value propositions
 Zero cloud, privacy, resilience, pet filtering, local processing,
 camera-free detection, low-cost retrofit.
+
+## Patent
+A patent filing is in progress for ThermalFlow (recorded, no further
+technical detail on filing status).
+
+## Recognition
+IEEE Innovation Nation quarter-finalist (recorded).

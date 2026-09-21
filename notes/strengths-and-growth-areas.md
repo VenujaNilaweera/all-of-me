@@ -37,7 +37,38 @@ links: [[[self]], [[engineering-design-philosophy]]]
   not reasons to stop.
 - Has moved across many tools/platforms fairly quickly (Arduino → ESP32 →
   STM32 → PIC → Raspberry Pi → Python → YOLO → PCB → power electronics),
-  suggesting good adaptability.
+  suggesting good adaptability. (Caveat: some of this specific platform
+  breadth — STM32/PIC — is now disputed; see
+  [[provenance-and-account-sharing]].)
+
+## Additional confirmed strengths (2026-09-21 evidence-labeled source)
+- **Full-stack hardware ownership:** carries a project from use case to
+  schematic to a fully-routed multi-layer PCB layout and power
+  architecture with protection (e.g. [[esp32-robot-controller-pcb]]).
+- **Sound power/reliability judgment:** rail separation, protection
+  circuitry, deliberate power-up default states (see
+  [[technical-lessons-learned]] and [[smart-timer-plug]]).
+- **Connects hardware, software, and data end to end:** the
+  [[dengue-crt-wearable]] system spans a pneumatic rig, an imaging
+  pipeline, a web study tool, Supabase, and a Streamlit dashboard.
+- **Rigour in research framing:** scoping decisions around patents,
+  correctly attributing which paper owns which technical claim, stating
+  limitations openly (see [[dengue-crt-wearable]]).
+- **Systematic outreach and vetting:** researches companies before
+  contacting them, tailors messages per channel, chains referrals, and
+  checks unfamiliar postings for scams before applying (see
+  [[career-and-interview-prep]]).
+- **Portfolio/documentation instinct:** LinkedIn entries, GitHub repos,
+  design specs, and this vault itself.
+- **Structural problem-solving:** when a 2-layer PCB couldn't route, the
+  fix was moving to 4 layers rather than fighting the layout (see
+  [[esp32-robot-controller-pcb]]) — fixing root causes structurally
+  rather than patching around them.
+- Adapts under failure without apparent stalling: 2-layer → 4-layer,
+  single-layer → smaller 2-layer, Excel-based tool → Supabase+Streamlit.
+  Rejects a flawed design and states exactly why (e.g. the smart-plug
+  gate-default issue in [[smart-timer-plug]]) rather than accepting a
+  "close enough" fix.
 
 ## Growth areas to watch
 - **Breadth vs. depth:** working across many domains is a strength, but
@@ -59,6 +90,21 @@ links: [[[self]], [[engineering-design-philosophy]]]
   compressed/abbreviated when excited or troubleshooting quickly — intent
   is usually still clear from context, so read for meaning over exact
   wording in those moments.
+- **Trusting his own reasoning before seeking confirmation:** in at least
+  one recorded area (AI-course conceptual questions), his own reasoning
+  was already correct before he checked it with AI.
+- **Finishing details on parallel deliverables:** some outputs have known
+  placeholders (e.g. MATLAB screenshots pending in a lab report, unclosed
+  Results/Discussion sections and an unresolved threshold-generalization
+  question in [[dengue-crt-wearable]]) — starting outpaces finishing on
+  some threads.
+- **Version-control fluency:** has confused `git pull` (receiving
+  collaborator commits) with `git push` (sending own commits) at least
+  once — see [[technical-lessons-learned]].
+- **Verifying claims before writing them down:** the research paper's
+  core novelty claim needed checking against prior work (Q-CRT,
+  Shinozaki, Blaxter) before it could be asserted — a reminder to verify
+  novelty/uniqueness claims before they go in a draft.
 
 ## Suggested deeper-skill targets (from the source profile)
 - Embedded fundamentals: C, memory, pointers, interrupts, timers, DMA,
