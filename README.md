@@ -166,6 +166,20 @@ also works fine just browsed on GitHub or in a text editor.
 
 Newest first. Add a line here when you add a file.
 
-| date       | type    | title                          |
-|------------|---------|--------------------------------|
-| 2026-09-21 | project | [[esp32-robot-board]] (example)|
+| date       | type     | title                                       |
+|------------|----------|---------------------------------------------|
+| 2026-09-21 | person   | [[self]]                                    |
+| 2026-09-21 | person   | [[sasinda-chandula]]                        |
+| 2026-09-21 | person   | [[dimuthu]]                                 |
+| 2026-09-21 | project  | [[apsync]]                                  |
+| 2026-09-21 | project  | [[venus-image-annotator]]                   |
+| 2026-09-21 | project  | [[jarvis-vscode-agent]]                     |
+| 2026-09-21 | project  | [[audio-frequency-isolation]]               |
+| 2026-09-21 | idea     | [[ar-furniture-app]]                        |
+| 2026-09-21 | idea     | [[beta-wave-focus-enhancer]]                |
+| 2026-09-21 | note     | [[power-electronics]]                       |
+| 2026-09-21 | note     | [[vlsi-physical-design]]                    |
+| 2026-09-21 | note     | [[engineering-corrections-ledger]]          |
+| 2026-09-21 | note     | [[mentor-message-templates]]                |
+| 2026-09-21 | note     | [[cinema-preferences]]                      |
+| 2026-09-21 | note     | [[music-vst-interests]]                     |
